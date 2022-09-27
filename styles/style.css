@@ -1,0 +1,115 @@
+/* Стилистические описания всей страницы */
+
+@import url(../blocks/page/page.css); /* Стили для основного блока page */
+
+/* Стилистические описания шапки лендинга */
+
+@import url(../blocks/header/header.css); /* Стилистические правила для шапки */
+@import url(../blocks/logo/logo.css); /* Стилистика шрифтов для логотипа */
+@import url(../blocks/logo/logo_place_header.css); /* Позиционирование логотипа */
+@import url(../blocks/header/__title/header__title.css); /* Позиционирование заголовка в header */
+@import url(../blocks/header/__subtitle/header__subtitle.css); /* Стилистика подписи */
+@import url(../blocks/header/__link/header__link.css); /* стилистика ссылки в подписи */
+@import url(../blocks/header/__main-instalation/header__main-instalation.css); /* Стили для картинки */
+@import url(../blocks/header/__square-pic/header__square-pic.css); /* Стили для синего квадрата за картинкой */
+@import url(../blocks/header/__square-pic/header__square-pic_transformstion_rotation.css); /* Описание вращения квадрата */
+
+/* Описание блока content */
+
+/* Стилистические описания секции description */
+
+@import url(../blocks/content/description/description.css); /* Ширина блока description */
+@import url(../blocks/content/description/two-columns/two-columns.css); /* Создание колонок с помощью flex и отступы */
+@import url(../blocks/content/description/two-columns/__brief/two-columns__brief.css); /* Описание ключевой фразы с размерами шрифтов */
+@import url(../blocks/content/description/two-columns/__main-text/two-columns__main-text.css); /* Описание колонки с текстом */
+@import url(../blocks/content/description/two-columns/__paragraph/two-columns__paragraph.css); /* Размер шрифта параграфов и отмена margin у последнего элемента */
+@import url(../blocks/content/description/two-columns/__span-accent/two-columns__span-accent.css); /* Жирное выделение span элемента */
+
+/* Описание section-title и section-subtitle */
+
+@import url(../blocks/section/section-title.css); /* Стилистика для section-title */
+@import url(../blocks/section/section-subtitle.css); /* Стилистика для section-subtitle */
+
+/* Стилистические описания секции techniques */
+
+@import url(../blocks/content/techniques/techniques.css); /* Границы блока techniques */
+@import url(../blocks/content/techniques/card/cards.css); /* Определение границ и позиционирование карточек */
+@import url(../blocks/content/techniques/card/__item/card__item.css); /* Размеры, остступы и выравницвание элементов внутри карточки */
+@import url(../blocks/content/techniques/card/__image/card__image.css); /* Выравнивание карточки с отступами */
+@import url(../blocks/content/techniques/card/__title/card__title.css); /* Стилистика текста для заголовка карточки */
+@import url(../blocks/content/techniques/card/__description/card__description.css); /* Стилистика текста и отступы для card__description */
+
+/* Описание секции video */
+
+@import url(../blocks/content/video/video.css); /* Размеры блока и переполнение с отступами */
+@import url(../blocks/content/video/__container/video__container.css); /* Расположение видео iframes на странице */
+@import url(../blocks/content/video/__iframe/video__iframe.css); /* Отступы между элементами */
+
+/* Описание блока oakley */
+
+@import url(../blocks/content/oakley/oakley.css); /* Размеры блока и отступы */
+
+/* Описание блока feynman */
+
+@import url(../blocks/content/feynman/feynman.css); /* Размеры блока, отступы и позиционирование элементов относительно родителя */
+@import url(../blocks/content/feynman/__title/feynman__title.css); /* Выравнивание, позиционирование, оступы и стилистика заголовка */
+@import url(../blocks/content/feynman/__subtitle/feynman__subtitle.css); /* Выравние и отступы для потзаголовка */
+@import url(../blocks/content/feynman/__link/feynman__link.css); /* Позиционирование и цвет ссылки */
+@import url(../blocks/content/feynman/__image/feynman__image.css); /* Размеры картинки и её позиционирование */
+
+/* Описание секции digits */
+
+@import url(../blocks/content/digits/digits.css); /* Отступы и положение блоков в занимаемой области */
+@import url(../blocks/content/digits/table/table.css); /* Ширина, отступы и выравнивание блока table */
+@import url(../blocks/content/digits/table/__cell/table__cell.css); /* Ширина и отступ от верхней границы для table__cell */
+@import url(../blocks/content/digits/table/__heading/table__heading.css); /* Стилистика текста для заголовка table__cell */
+@import url(../blocks/content/digits/table/__text/table__text.css); /* Отступ и стилистика текста table__cell */
+
+/* Описание блока khan */
+
+@import url(../blocks/content/khan/khan.css); /* Задание минимальной высоту для красоты и цвет фона */
+@import url(../blocks/content/khan/__container/khan__container.css); /* Размеры контента в блоке и позиционирование */
+@import url(../blocks/content/khan/__author/khan__author.css); /* Задание стилей для автора сверху */
+@import url(../blocks/content/khan/__title/khan__title.css); /* Стили для заголовка */
+@import url(../blocks/content/khan/__quote/khan__quote.css); /* Стили и отступы для цитаты */
+@import url(../blocks/content/khan/__quote-author/khan__quote-author.css); /* Стили для автора цитаты */
+@import url(../blocks/content/khan/__quote-author-subline/khan__quote-author-subline.css); /* Стили для подписи */
+@import url(../blocks/content/khan/__book-container/khan__book-container.css); /* Отступы и флекс дисплей */
+@import url(../blocks/content/khan/__book-pic/khan__book-pic.css); /* Размеры для картинки */
+@import url(../blocks/content/khan/__buy-link/khan__buy-link.css); /* Стили для ссылки */
+
+/* Описание секции section_theme_dark */
+
+@import url(../blocks/section/section-title_theme_dark.css); /* Установлен белый цвет для заголовка */
+@import url(../blocks/section/section-subtitle_theme_dark.css); /* Установлен белый цвет для подписи */
+
+/* Описание секции kaufman */
+/* В секции kaufman БЭМ структура имеет те же названия, только содержит ключ _theme и значение _dark */
+
+@import url(../blocks/content/kaufman/kaufman.css); /* Тёмная тема и отступы для блока kaufman */
+@import url(../blocks/content/kaufman/table/table_theme_dark.css); /* Отступы длф таблички */
+@import url(../blocks/content/kaufman/table/__cell/table__cell_theme_dark.css); /* Изменена ширина блока и отступы от верхней границы */
+@import url(../blocks/content/kaufman/table/__heading/table__heading_theme_dark.css); /* Установлен белый цвет */
+@import url(../blocks/content/kaufman/table/__text/table__text_theme_dark.css); /* Установлен белый цвет */
+@import url(../blocks/content/kaufman/__triangle/kaufman__triangle.css); /* Стили для треугольника */
+@import url(../blocks/content/kaufman/__triangle/kaufman__triangle_transform_rotation.css); /* Вращение треугольника */
+
+/* Описание секции recources */
+
+@import url(../blocks/content/resources/resources.css); /* Заданы отступы для секции resources */
+@import url(../blocks/content/resources/__logo-zone/resources__logo-zone.css); /* Позиционирование и отступы для логотипов */
+@import url(../blocks/content/resources/__link/resources__link.css); /* Ширина блока с сылкой */
+
+/* Описание подвала сайта */
+
+@import url(../blocks/footer/footer.css); /* Цвет фона и отступы в подвале */
+@import url(../blocks/footer/__columns/footer__columns.css) /* Ширина блоков и позиционирование */;
+@import url(../blocks/footer/__columns/footer__column_content_copyright.css); /* Позиционирование в блоке copyright */
+@import url(../blocks/footer/__columns/footer__column_content_info.css); /* Позиционирование через flex в колонку */
+@import url(../blocks/footer/__columns/footer__column_content_social.css); /*  */
+@import url(../blocks/logo/logo_place_footer.css); /* Цвет логотипа */
+@import url(../blocks/footer/__author/footer__author.css); /* Отступы и стили для текста Автора */
+@import url(../blocks/footer/__column-heading/footer__column-heading.css); /* Стили для заголовка на ссылках */
+@import url(../blocks/footer/__column-links/footer_column-links.css); /* Отступы от заголовка и после ссылок */
+@import url(../blocks/footer/__column-link/footer__column-link.css); /* Отступы, стили и подчёркивания для ссылок */
+@import url(../blocks/footer/__social-icon/footer__social-icon.css); /* Размеры иконок и отсупы от иконок */
